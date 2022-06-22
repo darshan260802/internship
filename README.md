@@ -4,7 +4,7 @@ See Live changes here: https://darshan260802.github.io/internship/
 
 DAY 1
 
-=> A brief introduction to current trending technologies as job perspective. Introduction to HTML, CSS, JS.
+=> A brief introduction to current trending technologies as job perspective. Introduction to HTML, CSS, JS.<br/>
 => Created index.html page using VSCode which contains background image and navbar containing website logo and other page links, which is responsive for desktop as well as mobile screens.
 
 Screenshots:
