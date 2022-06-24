@@ -24,6 +24,11 @@ a{
   text-decoration: none;
 }
 
+#delay_show{
+  font-size: 0px;
+  transition: all 0.2s linear;
+}
+
 .header{
   height: 100vh;
   width: 100vw;
@@ -118,32 +123,7 @@ a{
   animation: rainbowColor 9s infinite alternate;
 }
 
-@keyframes rainbowColor {
-  0%{
-    color: red;
-  }
-  14%{
-    color: orange;
-  }
-  28%{
-    color: yellow;
-  }
-  42%{
-    color: green;
-  }
-  56%{
-    color: blue;
-  }
-  70%{
-    color: indigo;
-  }
-  84%{
-    color: violet;
-  }
-  100%{
-    color: red;
-  }
-}
+
 
 
 /* Content */
@@ -180,6 +160,7 @@ a{
   justify-content: center;
   text-overflow: ellipsis;
   text-align: center;
+  transition: all 1s linear;
 }
 .specialize-div > div > i{
   color: #0F1729;
@@ -204,6 +185,7 @@ a{
   text-overflow: ellipsis;
   text-align: center;
   background-color: rgb(228, 228, 228);
+  transition: all 0.5s ease;
 }
 
 .section-stats > div:nth-child(odd){
@@ -257,7 +239,14 @@ background-color: lightgrey;
   color: #B3C5EF;
   background-color: #0F1729;
   position: relative;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease, background-color 0.3s ease;
+}
+
+.animate-process{
+  padding: 0 !important;
+  font-size: 0 !important;
+  height: 0 !important;
+  width: 0 !important;
 }
 .process-div > div > i:hover{
   background-color: green;
