@@ -425,4 +425,15 @@ a {
   .review {
     height: 45vh;
   }
+  .counters{
+    flex-direction: column;
+    height: fit-content;
+  }
+  .counter{
+    height: 35vh;
+    
+  }
+  .section-counters{
+    height: max-content;
+  }
 }
