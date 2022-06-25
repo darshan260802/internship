@@ -1,7 +1,8 @@
 window.onload = () => {
+    
     setTimeout(() => {
-        document.querySelector('#delay_show').style.fontSize = '18.72px';
-    },2000)
+        document.querySelector('#delay_show').style.fontSize = '20.72px';
+    },3000)
 }
 
 

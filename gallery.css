@@ -20,19 +20,19 @@ body{
   -ms-overflow-style: none;
 }
 
+a{
+  text-decoration: none;
+}
+
 
 .header{
-  height: 100vh;
+  /* height: 100vh; */
   width: 100vw;
-  background: rgba(0, 0, 0, 0.426)
-    url("https://cdn.pixabay.com/photo/2015/04/23/22/01/tree-736888_1280.jpg");
-  background-blend-mode: overlay;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #0F1729;
 
 }
 
-.gallery-container {
+.index-container {
   height: 100vh;
   width: 100vw;
   align-items: center;
@@ -86,4 +86,67 @@ body{
 .index-navbar a:hover {
   background-color: #B3C5EF;
   color: #0F1729;
+}
+
+/* Content Start */
+
+
+/* Content Ends */
+
+
+.section-footer{
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  color: #B3C5EF;
+  background-color: #0F1729;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-footer > .footer-contact{
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 4rem  1rem;
+}
+
+.section-footer > .footer-contact a{
+  margin-left: 0.8rem;
+  text-decoration: none;
+  color: #B3C5EF;
+}
+
+.section-footer > .footer-contact h3{
+margin-top: 3rem;
+}
+
+.section-footer > .footer-contact p {
+  margin-block: 0.5rem;
+}
+.section-footer > .footer-hr{
+  width: 97%;
+  height: 1px;
+  background-color: #B3C5EF61;
+}
+
+.section-footer > .footer-copy{
+  width: 93%;
+  padding-block: 2rem;
+}
+
+
+
+
+
+/* Responsive */
+@media only screen and (max-width: 1000px) {
+  /* Navbar */
+  .index-navbar-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
