@@ -138,10 +138,10 @@ a{
 .bottom-bar{
   height: 0.2rem;
   width: 6rem;
-  background-color: #0F1729;
+  background-color: #B3C5EF;
   margin-block: 0.5rem 1rem;
 }
-.section-specialize > h3{
+.section-specialize  h3{
   margin-block: 0.5rem;
 }
 .specialize-div{
@@ -163,7 +163,7 @@ a{
   transition: all 1s linear;
 }
 .specialize-div > div > i{
-  color: #0F1729;
+  color: #B3C5EF;
 }
 
 .section-stats{
