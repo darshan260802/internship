@@ -13,6 +13,7 @@ onload = () => {
         }
     })
 
+
     skillsProgress.observe(document.querySelector('.progress-container'))
 
 
