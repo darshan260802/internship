@@ -90,6 +90,96 @@ a{
 
 /* Content Start */
 
+.bottom-bar{
+  height: 0.2rem;
+  width: 6rem;
+  background-color: #B3C5EF;
+  margin-block: 0.5rem 1rem;
+}
+
+.contact-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95vw;
+  margin: 2rem auto ;
+  border: 1px solid red;
+  height: fit-content;
+}
+
+.content-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-inputs{
+  display: grid;
+  height: fit-content;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  padding-block: 1rem;
+  margin-block: 2rem;
+}
+.input{
+  position: relative;
+  margin: 2rem 1rem;
+}
+
+.input > input{
+  width: 80%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid gray;
+}
+
+.input > label > span{
+  display: inline-block;
+  transition: 0.2s ease;
+  color: gray;
+  min-width: 5px;
+}
+
+.input > input:focus, .input > input:valid{
+  border-color: #0F1729;
+}
+
+.input > input:focus + label > span, .input > input:valid + label > span{
+  transform: translateY(-30px);
+  color: #0F1729;
+}
+
+.input > label{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.textArea{
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.textArea > textarea{
+  width: 98%;
+  border: 2px solid gray;
+  outline: none;
+  padding: 0.3rem 1rem;
+  border-radius: 0.3rem;
+  resize: none;
+  margin-bottom: 1rem;
+}
+
+.textArea > textarea:focus, .textArea > textarea:valid{
+  border-color: #0F1729;
+}
+
+.submit > button{
+  padding: 0.5rem 6rem;
+  margin-block:1rem 2rem;
+  cursor: pointer;
+  background-color: #0F1729;
+  color: #B3C5EF;
+}
 
 /* Content Ends */
 
