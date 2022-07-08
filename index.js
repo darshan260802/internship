@@ -53,6 +53,6 @@ sectionStats.observe(document.querySelector('.section-stats'));
 specializeDiv.observe(document.querySelector('.specialize-div'));
 processDiv.observe(document.querySelector('.process-div'));
 
-document.querySelector("#activity-btn").addEventListener('click', () => {
-    location = "activity.html"
+document.querySelector("#projects-btn").addEventListener('click', () => {
+    location = "projects.html"
 })

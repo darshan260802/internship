@@ -90,6 +90,67 @@ a{
 
 /* Content Start */
 
+.header-div{
+height: 80%;
+width: 100%;
+background: rgba(0, 0, 0, 0.338) url('https://source.unsplash.com/GkFQEOubrCo');
+background-repeat: no-repeat;
+background-size: cover;
+color: #B3C5EF;
+display: grid;
+place-items: center;
+backdrop-filter: blur(0.3rem);
+background-blend-mode: overlay;
+}
+
+.header-div > h1{
+  font-size: 3rem;
+}
+
+.project{
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project > .project-title{
+  height: 10vh;
+  display: flex;
+  background-color: #0F1729;
+  color: #B3C5EF;
+  align-items: center;
+  padding-inline: 1rem;
+  width: 100%;
+}
+.project-title > h1{
+  font-size: 2rem;
+}
+
+.project > .project-code{
+  height: 40vh;
+  width: 100%;
+  background-color: #0f1729e9;
+  color: #b3c5efe1;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.project-code > .code-section{
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.code-section > pre{
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%;
+}
 
 /* Content Ends */
 
@@ -97,7 +158,6 @@ a{
 .section-footer{
   width: 100%;
   height: auto;
-  margin-top: 1rem;
   color: #B3C5EF;
   background-color: #0F1729;
   display: flex;
